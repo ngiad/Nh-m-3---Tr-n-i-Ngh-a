@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap; 
+    position: relative;
+    background-color: white;
+    height: 60px;
+    align-items: center;
+}
+.logo img{
+    margin-left: 20px;
+    width: 60px;
+    border-radius:50% ;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 100px;
+}
+
+.navbar{
+    margin: 0 15px;
+}
+
+.navbar a{
+    font-size: 16px;
+}
+/* ----------------------------------- */
+.title{
+    margin-top: 20px;
+    position: relative;
+    left: 45%;
+}
+.abort{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 30px 5%;
+    padding: 30px;
+    border-bottom: 2px solid #333;
+    
+
+}
+
+.abort-me-left{
+    flex: 1;
+    
+}
+.abort-me-left img{
+    box-shadow: 3px 1px 2px #333;
+}
+
+.abort-me-right{
+    
+    display: block;
+    width: max-content;
+    flex: 1;
+    position: relative;
+    top: 50px;
+
+}
+
+/* thanh tuu */
+
+.thanh-tuu{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 30px 5%;
+    padding: 30px;
+    border-bottom: 2px solid #333;
+   
+    
+}
+.thanh-tuu h3{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 45%;
+    /* position: absolute;
+    left: 48%; */
+
+}
+.content-thanhtuu{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 30px 5%;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+.title-thanhtu-left{
+    flex: 1;
+    position: relative;
+    top: 80px;
+}
+
+.title-thanhtu-right img{
+    box-shadow: 1px 1px 0px 0px #888888;
+}
+.hai016{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 30px;
+}
+.hanhtrinh-2016-left{
+    flex: 1;
+    position: relative;
+    top: 40px;
+}
+.hanhtrinh-2016-right{
+    flex: 1;
+}
+.hanhtrinh-2016-right img{
+    margin-left: 80px; 
+    width: 500px;
+}
+.hanhtrinh-2016-right span{
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    right: 260px;
+}
+
+.hanhtrinh-2016-nguoc-right{
+    flex: 1;
+    position: relative;
+}
+
+.hanhtrinh-2016-nguoc-right img{
+    width: 500px;
+}
+
+.hanhtrinh-2016-nguoc-right span{
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    right: 380px;
+}
+
+.hanhtrinh-2016-nguoc-left{
+    flex: 1;
+    position: relative;
+    top: 40px;
+}
+
+/* ----------------------- */
+.footer{
+    margin-left: 43%;
+}
+#abour-footer h2{
+    margin-left: 13%;
+}
+/* #abour-footer p{
+    margin-left: 60px;
+} */
+#abour-footer input{
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px ;
+    width: 400px;
+    text-align: center;
+    outline: none;
+    
+}
+.footer-top{
+    display: flex;
+    margin-left: 70px;
+}
+.footer-top li{
+    margin: 12px 15px;
+}
